@@ -1,5 +1,31 @@
-#rzrvsyn{
+#rzrvsyn {
     display: flex;
     justify-content: center;
     margin-top: -11rem;
 }
+
+@media screen and (max-width:500px) {
+    #rzrvsyn {
+        margin-top: -8rem !important;
+
+        margin-top: 0;
+    }
+}
+
+
+#description {
+    padding-right: 60px;
+    padding-left: 60px;
+
+    #d1 {
+        color: #052C55;
+        font-weight: bold;
+    }
+
+    #d2 {
+        color: #00539C;
+        font-weight: 800;
+        font-size: large;
+    }
+}
+

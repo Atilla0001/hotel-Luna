@@ -63,9 +63,9 @@ const Navbar = () => {
           <div id='logos'>
             <NavLink to={"/"}>       <img src="../../src/assets/images/gh3.png" alt="" style={{ maxHeight: "70px" }} id='logo' />    </NavLink>
             <div id='names'>
-              <p id='name'  >Giant Hotel - Çorum FK </p>
+            <NavLink to={"/"}>  <p id='name'  >Giant Hotel - LUNA </p> </NavLink>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <img src="../../src/assets/images/stars.png" alt="" style={{ maxHeight: "45px" }} id='stars' />
+              <NavLink to={"/"}>   <img src="../../src/assets/images/stars.png" alt="" style={{ maxHeight: "45px" }} id='stars' /> </NavLink>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
 
 
 
-          <div style={{ marginTop: "25px" }}>
+          <div >
             <div style={{ display: "flex", justifyContent: "center ", alignItems: "center " }} id='doublebtn'>
         
               <Button variant="secondary" style={{ backgroundColor: "#727CAD", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
