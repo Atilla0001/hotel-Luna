@@ -1,0 +1,172 @@
+#navbar {
+    .navbar2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        #logos {
+            padding-top: 15px;
+            display: flex;
+        }
+
+        #buttonsCenter {
+            text-align: none;
+            padding-right: 9%;
+
+            #Navbtn {
+                border: none;
+                font-weight: 600;
+
+                &:hover {
+                    background: #bdc6f5;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+#Navbtn2 {
+    border: none;
+
+}
+
+
+
+#names {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+
+    #name {
+        font-size: 20px;
+        font-weight: 700;
+        color: #727CAD;
+        padding: 0;
+        text-decoration: none;
+        margin-bottom: 0;
+    }
+}
+
+
+#topnav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 3% 0 3%;
+}
+
+#topnav2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+
+
+
+
+@media screen and (max-width:1400px) {
+    #names {
+        padding-left: 10px;
+
+        #name {
+            font-size: 15px;
+        }
+    }
+
+    #logo {
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #hamburger {
+        display: none;
+    }
+    .navbar3{
+        display: none !important;
+    } 
+}
+
+@media screen and (max-width:1200px) {
+    .navbar2 {
+        display: flex;
+        justify-content: space-between !important;
+        padding: 0 10px;
+
+        #logos {
+            margin-top: 3%;
+
+        }
+    }
+
+    #buttonsCenter {
+        display: none;
+    }
+
+    #doublebtn {
+        display: none !important;
+    }
+
+    #tel {
+        display: none !important;
+    }
+}
+
+
+
+@media screen and (min-width:500px) {
+    #topnav2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #xyz {
+        display: none !important;
+    }
+
+    #topnav2 {
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    #textnav{
+        font-size: small
+    }
+}
+
+@media screen and (max-width:420px) {
+    #stars {
+        width: 80px;
+        margin-left: -45px;
+    }
+
+}
+
+
+.navbar3 {
+
+  background-color: #ccd3f5; 
+     #Navbtn2 {
+        border: none;
+        font-weight: 600;
+    }
+
+    #ulnav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+        padding-top: 15px;
+    }
+}

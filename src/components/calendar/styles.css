@@ -1,0 +1,10 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .rdr-DateRange .rdr-Calendar {
+    color: rgb(255, 255, 255) !important ;
+    background-color: black !important;
+    margin: 10px;
+  }
+  
