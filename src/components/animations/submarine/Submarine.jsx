@@ -1,8 +1,9 @@
 import "./Submarine.scss"
 function Submarine() {
-  return (
+  return ( 
+
     <div>
-      <div className="sea">
+      <div className="sea" style={{}}>
     <div className="circle-wrapper">
         <div className="bubble"></div>
         <div className="submarine-wrapper">
