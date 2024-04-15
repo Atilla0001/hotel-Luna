@@ -38,7 +38,7 @@ const Home = () => {
                 We are waiting for you to live your unforgettable
                 moments in this place, where every detail has been
                 meticulously considered and offers every service
-                at the highest level of quality.</p>
+                at the highest level of quality...</p>
             </div>
           </Col>
           <Col>
