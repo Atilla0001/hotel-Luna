@@ -46,7 +46,7 @@
     #name {
         font-size: 20px;
         font-weight: 700;
-        color: #727CAD;
+        color: #00539C;
         padding: 0;
         text-decoration: none;
         margin-bottom: 0;
@@ -94,6 +94,7 @@
     .navbar3{
         display: none !important;
     } 
+   
 }
 
 @media screen and (max-width:1200px) {
@@ -102,10 +103,7 @@
         justify-content: space-between !important;
         padding: 0 10px;
 
-        #logos {
-            margin-top: 3%;
-
-        }
+       
     }
 
     #buttonsCenter {

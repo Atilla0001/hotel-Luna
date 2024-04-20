@@ -89,7 +89,7 @@ const Navbar = () => {
           <div >
             <div style={{ display: "flex", justifyContent: "center ", alignItems: "center " }} id='doublebtn'>
         
-              <Button variant="secondary" style={{ backgroundColor: "#727CAD", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
+              <Button variant="secondary" style={{ backgroundColor: "#00539C", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
             </div>
 
           </div>
@@ -133,7 +133,7 @@ const Navbar = () => {
               <Button variant="outline-secondary" id="Navbtn2" href='/iletisim' style={{ color: page == "/iletisim" ? "#8f9ff3" : "" }}>Contact</Button>
             </li>
             <li style={{ listStyleType: "none" }}>
-              <Button variant="secondary" style={{ backgroundColor: "#727CAD", maxHeight: "50px" }} id="">Reservation</Button>
+              <Button variant="secondary" style={{ backgroundColor: "#00539C", maxHeight: "50px" }} id="">Reservation</Button>
             </li>
             <li style={{ listStyleType: "none" }}>
               <p> Language Extention</p>
