@@ -3,9 +3,10 @@ import Navbar from "../../components/navbar/Navbar"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-import "./Home.scss"
 import Submarine from "../../components/animations/submarine/Submarine";
+import Room from "../../../src/components/roomSlider/Room";
+import "./Home.scss"
+
 const Home = () => {
   return (
     <>
@@ -38,7 +39,7 @@ const Home = () => {
                 We are waiting for you to live your unforgettable
                 moments in this place, where every detail has been
                 meticulously considered and offers every service
-                at the highest level of quality.</p>
+                at the highest level of quality...</p>
             </div>
           </Col>
           <Col>
@@ -52,6 +53,8 @@ const Home = () => {
 
 
 
+
+<Room></Room>
 
 
     </>
