@@ -10,6 +10,7 @@ import './Room.css';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -31,32 +32,33 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+       <Link>  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />  </Link>  
         </SwiperSlide>
+       
       </Swiper>
     </>
   );
