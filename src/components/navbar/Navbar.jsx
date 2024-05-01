@@ -90,7 +90,6 @@ const Navbar = () => {
             <div style={{ display: "flex", justifyContent: "center ", alignItems: "center " }} id='doublebtn'>
         
 
-              <Button variant="secondary" style={{ backgroundColor: "#00539C", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
 
               <Button variant="secondary" style={{ backgroundColor: "#052C55", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
 
@@ -138,7 +137,6 @@ const Navbar = () => {
             </li>
             <li style={{ listStyleType: "none" }}>
 
-              <Button variant="secondary" style={{ backgroundColor: "#00539C", maxHeight: "50px" }} id="">Reservation</Button>
 
               <Button variant="secondary" style={{ backgroundColor: "#052C55", maxHeight: "50px" }} id="">Reservation</Button>
 

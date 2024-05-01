@@ -57,6 +57,14 @@ const Home = () => {
 <Room></Room>
 
 
+
+
+
+
+<div className="container-fluid" style={{height:"550px", background:"#64A0F5", borderRadius:"50px"}}>
+
+</div>
+
     </>
   )
 }
