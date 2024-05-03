@@ -61,8 +61,8 @@ const Home = () => {
 
 
 
-<div className="container-fluid" style={{height:"550px", background:"#64A0F5", borderRadius:"50px"}}>
-
+<div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}>
+<h1 style={{color:"black "}}>DINING & DRINKS</h1>
 </div>
 
     </>

@@ -31,6 +31,8 @@ export default function App() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
+   
+
         <SwiperSlide >
           <Link to={"/standart"} >
             <img src="../../src/assets/images/f1.jpg" />
