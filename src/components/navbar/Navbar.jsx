@@ -91,7 +91,7 @@ const Navbar = () => {
         
 
 
-              <Button variant="secondary" style={{ backgroundColor: "#052C55", maxHeight: "50px" }} id="Navbtn2">Rezervation</Button>
+              <Button variant="secondary" style={{ backgroundColor: "#052C55", maxHeight: "50px" }} id="Navbtn2"> <p style={{color:"white", margin:"0"}}>Rezervation</p> </Button>
 
             </div>
 

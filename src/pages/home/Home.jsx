@@ -61,6 +61,7 @@ const Home = () => {
 
 
 
+<<<<<<< HEAD
 <div className="container-fluid" 
 style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center"}}>
 <h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks">DINING & DRINKS & NIGHT</h1>
@@ -75,6 +76,10 @@ style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadi
   <img src="src/assets/images/night.jpg"  alt=""  style={{height:"auto", width:"80%"}}/>
   </Col>
 </Row>
+=======
+<div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}>
+<h1 >DINING & DRINKS</h1>
+>>>>>>> 9d1cc363ebd0bb34b5e1d582a6328b384cb35d6a
 </div>
 
     </>
