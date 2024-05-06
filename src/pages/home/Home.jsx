@@ -62,7 +62,7 @@ const Home = () => {
 
 
 <div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}>
-<h1 style={{color:"black "}}>DINING & DRINKS</h1>
+<h1 >DINING & DRINKS</h1>
 </div>
 
     </>
