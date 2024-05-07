@@ -6,10 +6,11 @@ import Col from 'react-bootstrap/Col';
 import Submarine from "../../components/animations/submarine/Submarine";
 import Room from "../../../src/components/roomSlider/Room";
 import "./Home.scss"
+import React from "react";
 
 const Home = () => {
   return (
-    <>
+    <React.Fragment>
       <Navbar></Navbar>
 
       <img
@@ -62,8 +63,8 @@ const Home = () => {
 
 
 
-<div className="container-fluid" 
-style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center"}}>
+ <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center"}}>
+
 <h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks">DINING & DRINKS & NIGHT</h1>
 <Row style={{display:"flex", alignItems:"center"}}>
   <Col>
@@ -76,13 +77,13 @@ style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadi
   <img src="src/assets/images/night.jpg"  alt=""  style={{height:"auto", width:"80%"}}/>
   </Col>
 </Row>
-=======
-<div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}>
-<h1 >DINING & DRINKS</h1>
 
-</div>
+<div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}/>
 
-    </>
+
+</div> 
+
+    </React.Fragment>
   )
 }
 
