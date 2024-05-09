@@ -7,6 +7,8 @@ import Submarine from "../../components/animations/submarine/Submarine";
 import Room from "../../../src/components/roomSlider/Room";
 import "./Home.scss"
 import React from "react";
+import { Link } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -65,24 +67,28 @@ const Home = () => {
 
  <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center"}}>
 
-<h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks">DINING & DRINKS & NIGHT</h1>
-<Row style={{display:"flex", alignItems:"center"}}>
-  <Col>
-  <img src="src/assets/images/bar.jpg"  alt="" style={{height:"auto", width:"80%"}}/>
+<h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks" >  DINING & DRINKS & NIGHT</h1>
+<Row style={{display:"flex", alignItems:"center",paddingTop:"15px"}}>
+  <Col  style={{ display: "flex", justifyContent: "center" }}>
+ <Link><img src="src/assets/images/dining.jpg"  alt="" style={{height:"auto", width:"80%" }}/></Link> 
   </Col>
-  <Col>
-  <img src="src/assets/images/dining.jpg"  alt=""  style={{height:"auto", width:"80%"}}/>
+  <Col style={{ display: "flex", justifyContent: "center" }}>
+ <Link><img src="src/assets/images/bar.jpg"  alt=""  style={{height:"auto", width:"80%", maxHeight:"265px"}}/></Link> 
   </Col>
-  <Col>
-  <img src="src/assets/images/night.jpg"  alt=""  style={{height:"auto", width:"80%"}}/>
+  <Col style={{ display: "flex", justifyContent: "center" }}>
+ <Link><img src="src/assets/images/night.jpg"  alt=""  style={{height:"auto", width:"80%"}}/></Link> 
   </Col>
 </Row>
 
-<div className="container-fluid" style={{ display:"flex",justifyContent:"center",background:"#0069DB", borderRadius:"50px",opacity:"0.2"}}/>
 
 
 </div> 
+  
 
+
+
+
+  <Footer></Footer>
     </React.Fragment>
   )
 }
