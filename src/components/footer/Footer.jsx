@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
+import "./Footer.scss"
 
 function Footer() {
   return (
@@ -27,22 +28,22 @@ function Footer() {
 
 <Col>
 <ul   style={{listStyle:"none"}}>
-  <li>About Us</li>
-  <li>Accomodation</li>
-  <li>Restaurant</li>
-  <li>Spa & Pool</li>
-  <li>Meeting</li>
-  <li>Galeri</li>
-  <li>Contact</li>
+  <li className="footer-link">About Us</li>
+  <li className="footer-link">Accomodation</li>
+  <li className="footer-link">Restaurant</li>
+  <li className="footer-link">Spa & Pool</li>
+  <li className="footer-link">Meeting</li>
+  <li className="footer-link">Galeri</li>
+  <li className="footer-link">Contact</li>
 </ul>
 </Col>
 
 
 
 <div>
-<FaSquareXTwitter />
-<FaInstagramSquare />
-<BsLinkedin />
+<FaSquareXTwitter className="footer-social-media"/>
+<FaInstagramSquare  className="footer-social-media"/>
+<BsLinkedin className="footer-social-media" />
 
 </div>
 
