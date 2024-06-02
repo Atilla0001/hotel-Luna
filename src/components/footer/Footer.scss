@@ -1,9 +1,22 @@
 .footer-link{
     color: #fff;
     font-weight: 600;
+    &:hover{
+        color: #bebdbd;
+    }
 }
 .footer-social-media{
-    height: 30px;
+    height: 100px;
     width: auto;
     color: white;
+    &:hover{
+        color: #bebdbd;
+    }
+}
+
+
+.amblem{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
 }

@@ -7,26 +7,30 @@ import "./Footer.scss"
 
 function Footer() {
   return (
-    <div style={{background:"#002152", paddingTop:"25px"}}>
+    <div style={{background:"#002152", paddingTop:"25px", paddingBottom:"25px"}}>
         <Row>
          
-          <Col>
-          <div id='logos'>
-            <NavLink to={"/"}>       <img src="../../src/assets/images/gh3.png" alt="" style={{ maxHeight: "70px" }} id='logo' />    </NavLink>
-            <div id='names'>
-            <NavLink to={"/"}>  <p id='name'  >Giant Hotel - LUNA </p> </NavLink>
-              <div style={{ display: "flex", justifyContent: "center" }}>
-              <NavLink to={"/"}>   <img src="../../src/assets/images/stars.png" alt="" style={{ maxHeight: "45px" }} id='stars' /> </NavLink>
-              </div>
-            </div>
-          </div>
+          <Col lg={4}>
+         <Row className="amblem">
+          <Col lg={4}>
+          <NavLink to={"/"} style={{display:"flex", justifyContent:"center"}}> <img src="../../src/assets/images/gh3.png" alt="" style={{ maxHeight: "70px" }} id='logo' />    </NavLink>
+          </Col>
+          <Col lg={4}>
+          <NavLink to={"/"}  style={{display:"flex", justifyContent:"center"}}>  <p   style={{color:"white"}}>Giant Hotel - LUNA </p> </NavLink>
+          </Col>
+          <Col lg={4}>
+          <NavLink to={"/"}  style={{display:"flex", justifyContent:"center"}}>   <img src="../../src/assets/images/stars.png" alt="" style={{ maxHeight: "45px" }} id='stars' /> </NavLink>
+
+          </Col>
+          
+         </Row>
           </Col>
 
 
 
 
 
-<Col>
+<Col lg={4}>
 <ul   style={{listStyle:"none"}}>
   <li className="footer-link">About Us</li>
   <li className="footer-link">Accomodation</li>
@@ -40,12 +44,12 @@ function Footer() {
 
 
 
-<div>
+<Col style={{display:"flex", alignItems:"center"}}  lg={4}>
 <FaSquareXTwitter className="footer-social-media"/>
 <FaInstagramSquare  className="footer-social-media"/>
-<BsLinkedin className="footer-social-media" />
+<BsLinkedin className="footer-social-media" style={{height:"90px",paddingLeft:"10px"}} />
 
-</div>
+</Col>
 
 
 

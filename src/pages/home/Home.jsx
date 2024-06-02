@@ -65,11 +65,11 @@ const Home = () => {
 
 
 
- <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center"}}>
+ <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center" ,height:"400px",justifyContent:"center"}}>
 
 <h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks" >  DINING & DRINKS & NIGHT</h1>
 
-<Row style={{display:"flex", alignItems:"center",paddingTop:"15px"}}>
+<Row style={{display:"flex", alignItems:"center",paddingTop:"15px",paddingLeft:"25px"}}>
   <Col  style={{ display: "flex", justifyContent: "center" }}>
  <Link><img src="src/assets/images/dining.jpg"  alt="" style={{height:"auto", width:"80%" }}/></Link> 
   </Col>
@@ -85,7 +85,20 @@ const Home = () => {
 
 </div> 
   
+<div>
+  <p style={{padding:"20px 90px", fontSize:"18px",fontWeight:"600"}}>
+  Welcome to our five-star seaside hotel, where luxury meets tranquility. Nestled along the pristine shores of the Mediterranean, our hotel offers a haven of relaxation and indulgence for every guest.
 
+<br /> Our accommodation options cater to every preference and budget. Whether you seek a cozy room for a weekend getaway, a spacious suite for a family vacation, or a lavish penthouse for a special occasion, we have it all. Each room is meticulously designed to provide comfort and style, ensuring a memorable stay for our guests.
+
+<br /> Indulge in a culinary journey at our exquisite restaurants, where world-class chefs create delectable dishes using the freshest local ingredients. From gourmet seafood to authentic Mediterranean cuisine, our diverse dining options promise to tantalize your taste buds.
+
+<br /> Unwind and rejuvenate at our state-of-the-art spa, where expert therapists offer a range of treatments designed to relax the body and soothe the mind. Take a dip in our infinity pool overlooking the azure waters of the Mediterranean, or stroll along the sandy beach and feel the gentle breeze against your skin.
+
+For those seeking adventure, our hotel offers a variety of activities both on land and at sea. Explore the picturesque coastline with a guided kayak tour, or embark on a thrilling scuba diving expedition to discover the vibrant marine life beneath the waves.
+<br /> At our five-star seaside hotel, every moment is crafted to perfection, ensuring an unforgettable experience for our guests. Whether you are seeking relaxation, adventure, or simply a moment of bliss by the sea, we invite you to discover the magic of our hotel and create memories that will last a lifetime.
+  </p>
+</div>
 
 
 
