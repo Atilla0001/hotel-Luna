@@ -44,8 +44,19 @@
     display: none !important;
     
 }
+@media screen and (max-width:1200px) {
+   .image-col{
+        margin-top: 20px;
+    }
+}
 @media screen and (max-width:800) {
     #titleDrinks{
         font-size:5px !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .image-col{
+        height: 200px !important;
+        width: 250px !important;
     }
 }

@@ -20,3 +20,52 @@
     flex-direction: column;
     padding-left: 5%;
 }
+
+.stars-column{
+   
+   #stars{
+    padding-bottom: 0px;
+} 
+}
+.footer-social-media-linkedin{
+    height: 90px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .amblem{
+        padding: 0;
+        margin: 0;
+        .amblem-col{
+            padding-left: 0;
+            margin-left: 0;
+            padding-right: 0;
+            margin-right: 0;
+        }
+    }
+    .cols{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .footer-social-media{
+        height: 50px;
+    }
+    .footer-social-media-linkedin{
+        height: 43px;
+    }
+    .stars-column{
+        margin-top: -10px;;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .stars-column{
+       
+       #stars{
+        margin: 0;
+       }
+    }
+  
+}

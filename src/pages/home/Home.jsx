@@ -65,19 +65,19 @@ const Home = () => {
 
 
 
- <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center" ,height:"400px",justifyContent:"center"}}>
+ <div className="container-fluid" style={{ display:"flex",flexDirection:"column",background:"#BED3EA ", borderRadius:"50px",alignItems:"center" ,padding:"20px 30px",justifyContent:"center"}}>
 
 <h1 style={{color:"#000 ", fontWeight:"600"}} id="titleDrinks" >  DINING & DRINKS & NIGHT</h1>
 
-<Row style={{display:"flex", alignItems:"center",paddingTop:"15px",paddingLeft:"25px"}}>
-  <Col  style={{ display: "flex", justifyContent: "center" }}>
- <Link><img src="src/assets/images/dining.jpg"  alt="" style={{height:"auto", width:"80%" }}/></Link> 
+<Row style={{display:"flex", alignItems:"center",paddingTop:"15px",paddingLeft:"25px"}} >
+  <Col md={12} lg={4}  style={{ display: "flex", justifyContent: "center" }} >
+ <Link><img src="src/assets/images/dining.jpg"  alt="" style={{height:"250px", width:"350px" }}  className="image-col"/></Link> 
   </Col>
-  <Col style={{ display: "flex", justifyContent: "center" }}>
- <Link><img src="src/assets/images/bar.jpg"  alt=""  style={{ width:"80%", maxHeight:"330px"}}/></Link> 
+  <Col md={12} lg={4} style={{ display: "flex", justifyContent: "center" }}  >
+ <Link><img src="src/assets/images/bar.jpg"  alt=""  style={{ height:"250px", width:"350px", marginLeft:"10px"}} className="image-col"/></Link> 
   </Col>
-  <Col style={{ display: "flex", justifyContent: "center" }}>
- <Link><img src="src/assets/images/night.jpg"  alt=""  style={{height:"auto", width:"80%"}}/></Link> 
+  <Col md={12} lg={4} style={{ display: "flex", justifyContent: "center" }} >
+ <Link><img src="src/assets/images/night.jpg"  alt=""  style={{height:"250px", width:"auto", marginLeft:"10px"}} className="image-col"/></Link> 
   </Col>
 </Row>
 
