@@ -7,7 +7,7 @@ import "./Footer.scss"
 
 function Footer() {
   return (
-    <div style={{background:"#002152", paddingTop:"25px", paddingBottom:"25px"}}>
+    <div style={{background:"#002152", paddingTop:"25px", paddingBottom:"25px",marginTop:"100px"}}>
         <Row className="row-parent">
          
           <Col lg={4} >

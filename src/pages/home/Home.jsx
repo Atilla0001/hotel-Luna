@@ -102,7 +102,7 @@ For those seeking adventure, our hotel offers a variety of activities both on la
 
 
 
-  <Footer></Footer>
+  <Footer ></Footer>
     </React.Fragment>
   )
 }
